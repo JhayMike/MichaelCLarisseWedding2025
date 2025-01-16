@@ -814,8 +814,8 @@ swiper-slide img {
 
 @media (max-width: 480px) {
   .bg-img img {
-    height: 50vh;
-    padding-top: 0vh;
+     width: 100%; 
+     height: auto; 
   }
 }
 /* End of Attire Guide Section */
