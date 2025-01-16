@@ -1054,6 +1054,9 @@ swiper-slide img {
     height: auto;
     padding-bottom: 30px;
   }
+.accordion{
+    width: 95%;
+  }
 }
 
 .footer {
