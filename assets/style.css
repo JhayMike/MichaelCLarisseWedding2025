@@ -771,6 +771,17 @@ swiper-slide img {
 }
 /* End of E-Invitation Section */
 
+/* Attire Guide Section */
+.attire-guides-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/viber12.jpg');
+  padding: 20px;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
+}
 /* Container for Columns */
 .attire-container {
   margin-top: 70px;
