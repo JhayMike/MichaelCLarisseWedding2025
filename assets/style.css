@@ -778,7 +778,9 @@ swiper-slide img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/viber12.jpg');
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/venue.jpeg');*/
+  background-image: url('../assets/img/venue.jpeg');
+  background-size: cover;
   padding: 20px;
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.1);
 }
@@ -840,7 +842,7 @@ swiper-slide img {
 .text-column {
   position: relative;
   background: #19233D;
-  border-radius: 90% 0 0 90%; /* Create the arch shape */
+  border-radius: 50% 0 0 50%; 
   color: #eea740;
   display: flex;
   flex-direction: column;
