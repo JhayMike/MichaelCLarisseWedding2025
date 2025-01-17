@@ -772,50 +772,121 @@ swiper-slide img {
 /* End of E-Invitation Section */
 
 /* Attire Guide Section */
-.attire-guide-section {
-  /*background-color: #323946;  
-  background: linear-gradient(30deg, #bbccdb, #4b6f9b, #5175a9); */
-  background-color: #fff;
-  height: 100vh;
+.attire-guides-section {
   width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f7f7f7; /* Light background */
 }
 
-.attire-guide-section h1{
-  text-align: center;
-  padding-top: 10vh;
+/* Container for Columns */
+.attire-container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 90%;
+}
+
+/* Columns */
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Image Column */
+.image-column img {
+  width: 100%;
+  height: auto;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+/* Text Column */
+.text-column {
+  align-items: flex-start; 
+}
+
+.text-column h1 {
+  text-align: left; 
   font-family: "Great Vibes", cursive;
-  color: #dcbe6e;
+  font-size: 3.5rem;
+  color: #333;
+  margin: 10px 0;
 }
 
-.bg-img{
+.text-column h3 {
+  text-align: left; 
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+
+.color-circles {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
 }
-.bg-img img{
-  margin-top: 5vh;
-  height: 85vh;
-  width: 75vw;
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.8);
 }
-/* Media Queries for Smaller Screens */
+
 @media (max-width: 768px) {
-  .attire-guide-section {
-    padding: 10px; /* Reduce padding */
+  .attire-guides-section{
+    height: auto;
+  }
+  .attire-container {
+    flex-direction: column;
   }
 
-  .bg-img img {
-    height: 50vh;
-    width: 90vw;
+  .image-column img {
+    max-width: 80%;
+  }
+
+  .text-column {
+    align-items:center;
+  }
+
+  .text-column h1 {
+    font-size: 2.0rem;
+    text-align: center;
+  }
+
+  .text-column h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .color-circles {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
   }
 }
 
 @media (max-width: 480px) {
-  .bg-img img {
-     width: 100%; 
-     height: auto; 
+  .text-column h3 {
+    font-size: 1rem;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
   }
 }
 /* End of Attire Guide Section */
