@@ -1002,7 +1002,7 @@ swiper-slide img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
 }
 
-.image-column img {
+.location-image-column img {
   width: 45vw;
   height: 60vh!important;
   object-fit: cover;
@@ -1018,11 +1018,11 @@ swiper-slide img {
     max-height: 350px;
     width: 90vw;
   }
-  .image-column img {
+  .location-image-column img {
     max-height: 350px;
     min-width: 90vw!important;
   }
-  .image-column{
+  .location-image-column{
     margin: 0;
   }
   .church-location-section{
@@ -1044,7 +1044,7 @@ swiper-slide img {
     max-height: 200px;
     width: 90vw;
   }
-  .image-column img {
+  .location-image-column img {
     max-height: 200px;
     width: 90vw;
   }
