@@ -485,13 +485,14 @@ body {
   /*font-weight: bold;
   letter-spacing: 10px;*/
   font-size: 30px;  
-  color: #eea740;
+  
 }
 
 .carousel .list .item .title{
   font-family: "Great Vibes", cursive;
   font-size: 5em;
   line-height: 1.3em;
+  color: #eea740;
 }
 /*.carousel .list .item .title,*/
 .carousel .list .item .topic{
@@ -741,9 +742,6 @@ body {
   /*Our Story*/
   .carousel .list .item .content{
     padding-right: 0;
-  }
-  .carousel .list .item .content .title{
-      font-size: 30px;
   }
 } 
 /* End of Our Story Section*/
