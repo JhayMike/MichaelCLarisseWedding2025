@@ -779,6 +779,7 @@ swiper-slide {
 swiper-slide img {
   display: block;
   width: 100%;
+  border-radius: 15px;
 }
 /* End of E-Invitation Section */
 
